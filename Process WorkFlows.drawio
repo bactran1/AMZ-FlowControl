@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-02T17:15:19.394Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0" etag="PknUg3lEnUPehZAU6tA6" version="21.3.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-02T17:17:51.660Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0" etag="qQ-RzBGDgMYyz-pRUVx_" version="21.3.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1750" dy="943" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="913" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -40,6 +40,9 @@
             <mxPoint x="220" y="680" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="IPmdnVgpw8FMhHxxdNhb-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-11" target="IPmdnVgpw8FMhHxxdNhb-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-11" value="Codesys Low Level" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="120" y="779" width="200" height="40" as="geometry" />
         </mxCell>
@@ -58,8 +61,8 @@
         <mxCell id="IPmdnVgpw8FMhHxxdNhb-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="IPmdnVgpw8FMhHxxdNhb-6" target="WIyWlLk6GJQsqaUBKTNV-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IPmdnVgpw8FMhHxxdNhb-6" value="Package Length Estimation" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="140" y="220" width="160" height="60" as="geometry" />
+        <mxCell id="IPmdnVgpw8FMhHxxdNhb-6" value="Package Length Estimation&lt;br&gt;OR&lt;br&gt;SICK&#39;s LIDAR Package Estimation" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="100" y="220" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IPmdnVgpw8FMhHxxdNhb-11" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="220" y="460" width="40" height="30" as="geometry" />
@@ -119,6 +122,20 @@
             <mxPoint x="410" y="610" as="sourcePoint" />
             <mxPoint x="430" y="599" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="IPmdnVgpw8FMhHxxdNhb-36" value="PLC Analog Output" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="120" y="900" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IPmdnVgpw8FMhHxxdNhb-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="IPmdnVgpw8FMhHxxdNhb-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="940" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IPmdnVgpw8FMhHxxdNhb-39" value="ConveyorX&#39;s Motor Driver" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="120" y="1021" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IPmdnVgpw8FMhHxxdNhb-40" value="0-10V signal" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="221" y="968" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
